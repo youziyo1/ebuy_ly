@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ebuyly:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="ebuy.ly.war">
+      <element id="artifact" artifact-name="ebuyly:war exploded" />
+    </root>
+  </artifact>
+</component>
