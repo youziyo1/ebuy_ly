@@ -8,9 +8,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>欢迎登录后台管理系统--模板之家 www.cssmoban.com</title>
-<link href="css/style.css" rel="stylesheet" type="text/css" />
-<script language="JavaScript" src="js/jquery.js"></script>
-<script src="js/cloud.js" type="text/javascript"></script>
+<link href="<%=basePath%>jsp/backstage/css/style.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="<%=basePath%>jsp/backstage/js/jquery.js"></script>
+<script src="<%=basePath%>jsp/backstage/js/cloud.js" type="text/javascript"></script>
 
 <script language="javascript">
 	$(function(){
@@ -48,7 +48,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
        
     <div class="loginbox">
     
-    <form action="<%=basePath%>backstage/login" method="post">
+    <form action="<%=basePath%>/backstage/login" method="post">
     <ul>
     <li><input name="username" type="text" class="loginuser" value="admin" onclick="JavaScript:this.value=''"/></li>
     <li><input name="password" type="text" class="loginpwd" value="密码" onclick="JavaScript:this.value=''"/></li>

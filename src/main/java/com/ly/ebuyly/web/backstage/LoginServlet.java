@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 
-@WebServlet(urlPatterns="/backstage/login")
+//@WebServlet(urlPatterns="/backstage/login")
 public class LoginServlet extends HttpServlet {
 	AdminDao adminDao=new AdminDao();
 	
